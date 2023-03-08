@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Loading from './pages/loading/loading';
 
 function App() {
   return (
     <div className="App">
-      
+          <Loading />
     </div>
   );
 }
